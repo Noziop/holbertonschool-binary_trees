@@ -12,7 +12,7 @@ This repository contains programs written for the Binary Trees project at Holber
 * **Team:** Project to be done in teams of 2 people
   - Fassih Belmokhtar
   - Salomon Diallo
-* ** Due time ** 1 week 
+* **Due time** 1 week 
 
 ## Objectives to assimilate 
 
@@ -55,6 +55,7 @@ typedef struct binary_tree_s binary_tree_t;
 typedef struct binary_tree_s bst_t;
 typedef struct binary_tree_s avl_t;
 typedef struct binary_tree_s heap_t;
+```
 
 ## Author
 
