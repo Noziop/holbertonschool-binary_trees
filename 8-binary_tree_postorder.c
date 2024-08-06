@@ -14,9 +14,10 @@ void binary_tree_postorder(const binary_tree_t *tree, void (*func)(int))
 	/* Recursively traverse the left subtree */
 	binary_tree_postorder(tree->left, func);
 
+	/* Recursively traverse the right subtree */
+	binary_tree_postorder(tree->right, func);
+
 	/* Visit the root node */
 	func(tree->n);
 
-	/* Recursively traverse the right subtree */
-	binary_tree_postorder(tree->right, func);
 }
